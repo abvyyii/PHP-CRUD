@@ -64,7 +64,7 @@ h1{
 form table{
 font-weight:bold ;
 }
-form table button{
+form button{
     border:solid 0.5px rgb(255, 255, 255);
     font-size: 16px;
     height:35px;
@@ -73,7 +73,7 @@ form table button{
     background-color: rgba(255, 255, 255, 0.175);
     color:white;
 }
-form table button:hover{
+form button:hover{
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     transform: scale(1.1);
@@ -91,14 +91,33 @@ form table button:hover{
     padding-top: 10px;
     padding-left: 10px;
 }
-.cont ::placeholder{
+input ::placeholder{
     color:white;
 }
-.cont input{
+input{
     border:solid 0.5px rgb(255, 255, 255);
     background-color: rgba(204, 204, 204, 0.333);
     border-radius:10px ;
     height: 25px;
     width: 250px;
     color: white;
+}
+form button.ret{
+    border:solid 0.5px rgb(255, 255, 255);
+    font-size: 16px;
+    height:35px;
+    width:70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.175);
+    color:white;
+}
+form button.ret:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-weight: bold;
+}
+.delete{
+    padding: 10px;
 }

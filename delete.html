@@ -17,12 +17,20 @@
 
     <br>
     <div class="cont">
-        <form action="retrieve.php">
-            <H1>RETRIEVE DATA</H1>
-            <button type="submit" class="ret">Retrieve</button>
+        <h1>DELETE DATA FROM EMAIL.</h1>
+        <form class="delete" action="delete.php" method="post">
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="del_email" placeholder="someone@domain.com">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit" class="ret">Delete</button>
         </form>
     </div>
-       
+        
 </body>
 
 </html>
